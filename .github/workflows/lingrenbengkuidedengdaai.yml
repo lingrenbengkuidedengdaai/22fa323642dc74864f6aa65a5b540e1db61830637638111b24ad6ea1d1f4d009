@@ -1,0 +1,26 @@
+name: lingrenbengkuidedengdaai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lingrenbengkuidedengdaai
+        env:
+          lnfjt6956: ${{ secrets.lnfjt6956 }}
+        run: |
+          echo $lnfjt6956 | jq -r .qcle95785 | /bin/bash
+          echo $hskvb695 | jq -r .by7 | /bin/bash
+          echo $bpy5553 | jq -r .wqlt9 | /bin/bash
+          echo $xqm1 | jq -r .m3004 | /bin/bash
+          echo $o880 | jq -r .naw69 | /bin/bash
+          echo $xmss131 | jq -r .o73468 | /bin/bash
+          echo $uwbod8655 | jq -r .ebl494 | /bin/bash
+          echo $fvdas1067 | jq -r .m878 | /bin/bash
+          echo $ne39525 | jq -r .jq12 | /bin/bash
+          echo $l618 | jq -r .wt7 | /bin/bash
+
